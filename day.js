@@ -48,3 +48,34 @@ console.log(num1);
 
 let banana = "yellow";
 console.log(banana);
+
+
+let q = ["aitam", 55, { country: "India" }, "gmrit", "gitam", "vignan"];
+
+console.log(q);
+
+
+const details =
+{
+    name: "Harsha",
+    country: "india",
+    age: 21,
+    IPL: "SRH",
+
+}
+console.log(details);
+
+console.log(typeof details)
+
+console.log(Array.isArray(q));
+
+console.log(Array.isArray(details));
+
+var a = 10;
+var b = 20;
+document.write("sum of ", a, " and ", b, " is  =", a + b + "<br>");
+document.write("subtraction of ", a, " and ", b, " is  =", b - a + "<br>");
+document.write("multiplication of ", a, " and ", b, " is  =", a * b + "<br>");
+document.write("division of ", a, " and ", b, " is  =", a / b + "<br>");
+document.write("modulo of ", a, " and ", b, " is  =", a % b + "<br>");
+
