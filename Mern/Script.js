@@ -36,7 +36,7 @@ document.write(23456789)
 
 document.write("<h3>welcome to my website</h3>")
 
-alert("welcome to my website")
+
 
 
 let sample = null;
@@ -78,4 +78,14 @@ document.write("subtraction of ", a, " and ", b, " is  =", b - a + "<br>");
 document.write("multiplication of ", a, " and ", b, " is  =", a * b + "<br>");
 document.write("division of ", a, " and ", b, " is  =", a / b + "<br>");
 document.write("modulo of ", a, " and ", b, " is  =", a % b + "<br>");
+
+
+var c = 60;
+
+c++
+
+document.write(c + "<br>");
+var b = 60;
+b--
+document.write(b);
 
