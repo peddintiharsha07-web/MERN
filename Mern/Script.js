@@ -87,5 +87,98 @@ c++
 document.write(c + "<br>");
 var b = 60;
 b--
-document.write(b);
+document.write(b + "<br>");
+
+
+var age = 19;
+if (age >= 20) {
+    document.write("You are eligible for voting<br>");
+}
+else {
+    document.write("You are not eligible for voting<br>");
+}
+
+var age = 26;
+if (age <= 10) {
+    document.write("your the child")
+}
+else if (age == 18) {
+    document.write("your the teenager")
+}
+else if (age == 20) {
+    document.write("your the adult")
+}
+else {
+    document.write("your the old <br>")
+}
+
+
+
+var w = 20;
+var e = 15;
+var r = 30;
+
+if (w > e || r < e) {
+    document.write("yes is one correct <br>")
+}
+else {
+    document.write("no it was not correct <br>")
+}
+
+
+document.write(4 + 6 == 9 ? " is correct" : " is not correct" + "<br>");
+
+
+//dialog box
+
+
+var Boy = confirm("are you boy");
+
+if (Boy) {
+    let name = prompt("Please enter your name");
+    document.write("hellow Mr." + name + " how are you" + "<br>");
+}
+else {
+    let name = prompt("Please enter your name");
+    document.write("hellow Ms ." + name + " how are you" + "<br>");
+}
+
+
+
+var a = "55"
+
+var b = 44
+
+document.write(typeof a + "<br>");
+document.write(typeof b);
+
+var z = parseInt(a);
+document.write(typeof z);
+
+
+
+
+
+var name = prompt("please enter your name");
+var marks = prompt("please enter marks");
+
+switch (true) {
+    case marks >= 90 && marks <= 100:
+        result = ("greate your the topper");
+        break;
+    case marks >= 80 && marks <= 90:
+        result = ("first class");
+        break;
+    case marks >= 70 && marks <= 80:
+        result = ("second class");
+        break;
+    case marks >= 60 && marks <= 70:
+        result = ("third class");
+        break;
+    default:
+        result = ("better luck next time");
+        break;
+}
+
+document.write("<br>" + name + " your the " + result + "<br>");
 
