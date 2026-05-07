@@ -939,3 +939,13 @@ let obj = {};
 
 //usign constructor
 let obj = new Object();
+
+//using class
+
+class Person {
+  constructor(name) {
+    this.name = name;
+  }
+}
+
+let p1 = new Person("John");
