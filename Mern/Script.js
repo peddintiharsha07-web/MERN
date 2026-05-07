@@ -930,3 +930,12 @@ for (let key in person) {
 Object.keys(person);   // returns array of keys
 Object.values(person); // returns array of values
 Object.entries(person);// key-value pairs
+
+//Creating Objects (Different Ways)
+
+// Object literal (most common)
+
+let obj = {};
+
+//usign constructor
+let obj = new Object();
