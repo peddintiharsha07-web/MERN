@@ -316,6 +316,5 @@ arr.unshift(-1)
 arr.shift();
 
 //push
-arr.push(10) 
-
+arr.lenght()
 
