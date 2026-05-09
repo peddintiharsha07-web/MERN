@@ -202,3 +202,32 @@ uday();
 uday();
 uday();
 
+
+//scopes
+
+//gloabl scope
+var apple = "red";
+let banna = "yellow";
+const orange = "orange";
+
+function fruit() {
+    document.write(apple + "<br>");
+    document.write(banna + "<br>");
+    document.write(orange + "<br>");
+}
+
+fruit();
+
+
+//function scope
+function fruit() {
+    var x = 100;
+    let a = 1234;
+    const b = 900;
+    document.write(x + "<br>");
+    document.write(a + "<br>");
+    document.write(b + "<br>");
+}
+
+
+
