@@ -230,4 +230,67 @@ function fruit() {
 }
 
 
+//blok scope
 
+function sports() {
+    if (10 < 20) {
+        var chess = "gukesh is the chess player"
+        let cricket = "i love cricket";
+        const football = "i lovefootball";
+
+        document.write(chess);
+        document.write(cricket);
+        document.write(football);
+
+    }
+}
+sports();
+
+document.write("<br>----------------------------------<br>")
+
+//return function
+//fuction expressions
+
+var a = function apple() {
+    document.write("hellow world welcome to my website <br>")
+
+}
+a();
+
+
+//Anonymous function
+var b = function () {
+    document.write("my fovarite place is vizag<br>")
+}
+b();
+
+//function with prameters and return value
+
+function score(a, b) {
+    return a + b;
+
+}
+
+document.write(score(10, 20) + "<br>");
+document.write(score(110, 201) + "<br>");
+document.write(score(210, 270) + "<br>");
+document.write(score(108, 230) + "<br>");
+document.write(score(102, 208) + "<br>");
+
+
+function places(x, y) {
+    return document.write("my fovourite place is " + x + " and " + y + "<br>");
+}
+
+places("vizag", "bhubaneswar");
+places("amravati", "banglore");
+places("hydrabad", "vizianagram");
+
+
+var username = prompt("enter your good name");
+
+function welcome(username) {
+    return document.write("welcome to my website - " + username + "<br>")
+}
+
+welcome(username);
