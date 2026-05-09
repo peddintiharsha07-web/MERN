@@ -315,4 +315,7 @@ arr.unshift(-1)
 //shift()
 arr.shift();
 
+//push
+arr.push(10) 
+
 
