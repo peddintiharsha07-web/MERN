@@ -295,4 +295,24 @@ function welcome(username) {
 
 welcome(username);
 
-document.write("Harsha") 
+//array methods
+
+let collection =["shiva",30, True,{name:uday}]
+
+//push
+
+let arr = [1, 2, 3, 4, 5,];
+arr.push(6);
+
+//pop
+
+arr.pop();
+
+//unshift
+
+arr.unshift(-1)
+
+//shift()
+arr.shift();
+
+
