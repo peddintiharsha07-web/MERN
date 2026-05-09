@@ -182,3 +182,23 @@ switch (true) {
 
 document.write("<br>" + name + " your the " + result + "<br>");
 
+//Functions
+function Harsha() {
+    document.write("Welcome to my website<br>");
+
+
+}
+Harsha();
+
+
+function uday() {
+    console.log("i love srikakulam");
+
+}
+
+uday();
+uday();
+uday();
+uday();
+uday();
+
