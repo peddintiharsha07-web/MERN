@@ -484,3 +484,7 @@ for(let i = 0; i < a.length; i++){
 }
 
 document.write("Unique numbers: " + b + "<br>");
+
+// Dom manipulation
+//getElementById
+document.getElementById("demo").innerHTML = "welcome to srikakulam";    
