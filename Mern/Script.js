@@ -294,3 +294,48 @@ function welcome(username) {
 }
 
 welcome(username);
+
+
+//methods in array
+
+document.write("\n-------------------------------<br>");
+let games = ["cricket", "football", "hockey", "badminton", "tennis"];
+
+games.push("volleyball");
+
+document.write(games+ "<br>");
+
+
+
+document.write("\n-------------------------------<br>");
+games.pop();
+
+document.write(games + "<br>");
+
+
+
+
+document.write("\n-------------------------------<br>");
+games.unshift("kabaddi");
+document.write(games + "<br>");
+
+document.write("\n-------------------------------<br>");
+
+games.shift();
+document.write(games + "<br>");
+document.write("\n-------------------------------<br>");
+
+
+games.splice(2, 0, "chess", "carrom");
+document.write(games + "<br>"); 
+document.write("\n-------------------------------<br>");
+
+games.splice(3, 1);
+document.write(games + "<br>"); 
+
+
+games.splice(1, 2);
+document.write(games + "<br>");
+
+document.write(games.length + "<br>");
+
