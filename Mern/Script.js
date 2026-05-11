@@ -368,3 +368,31 @@ document.write(volleyball_team + "<br>");
 
 volleyball_team.splice(2,5,"ukraine","vatican city");
 document.write(volleyball_team + "<br>");
+
+//index of method
+let students = ["harsha", "uday", "sai", "vishnu", "sumanth"];
+
+
+if (students.indexOf("vishnu") !== -1) {
+    document.write("vishnu is present in the array<br>");
+}   
+let index = students.indexOf("vishnu");
+document.write(index + "<br>");
+
+
+//foreach method
+let scores = [1, 2, 3, 4, 5];
+let students1 = ["harsha", "uday", "sai", "vishnu", "sumanth"];
+
+students1.forEach(function (items , index) {
+    document.write(  index + 1 + "-" + items +  "<br>");
+});
+
+scores.forEach(function (score) {
+    document.write(score * 2 + "<br>");
+});
+
+
+
+
+
