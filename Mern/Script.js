@@ -295,8 +295,6 @@ function welcome(username) {
 
 welcome(username);
 
-<<<<<<< HEAD
-
 //methods in array
 
 document.write("\n-------------------------------<br>");
@@ -327,40 +325,46 @@ document.write(games + "<br>");
 document.write("\n-------------------------------<br>");
 
 
-games.splice(2, 0, "chess", "carrom");
-document.write(games + "<br>"); 
-document.write("\n-------------------------------<br>");
-
-games.splice(3, 1);
-document.write(games + "<br>"); 
 
 
-games.splice(1, 2);
-document.write(games + "<br>");
+//concat method
+let a1 = ["a", "b", "c"];
+let a2 = ["d", "e", "f"];
 
-document.write(games.length + "<br>");
-=======
-//array methods
+let a3 = a1.concat(a2);
+var a4 = a3.join("$");
+  
+document.write(a3 + "<br>");
+document.write(a4 + "<br>");
 
-let collection =["shiva",30, True,{name:uday}]
 
-//push
+//slice method
 
-let arr = [1, 2, 3, 4, 5,];
-arr.push(6);
+let cricet_team = ["india", "australia", "england", "south africa", "new zealand"];
 
-//pop
+let team1 = cricet_team.slice(0, 3);
+document.write(team1 + "<br>");
 
-arr.pop();
+//splice method
 
-//unshift
+let team2 = cricet_team.splice(2, 2, "srilanka", "pakistan");
+document.write(team2 + "<br>");
+document.write(cricet_team + "<br>");
 
-arr.unshift(-1)
+//slice and splice method
 
-//shift()
-arr.shift();
+//removeing elements from array using splice method
+let volleyball_team = ["india", "italy", "brazil", "usa", "france"];
+volleyball_team.splice(0,3)
+document.write(volleyball_team + "<br>");
 
-//push
-arr.lenght()
->>>>>>> 47bb968374f662ea4f47bae152290dbdb0cb5706
+//adding elements to array using splice method
+volleyball_team.splice(0,0,"japan","germany","australia");
+document.write(volleyball_team + "<br>");
 
+//adding without removing elements using splice method
+volleyball_team.splice(2,0,"china","canada");
+document.write(volleyball_team + "<br>");
+
+volleyball_team.splice(2,5,"ukraine","vatican city");
+document.write(volleyball_team + "<br>");
