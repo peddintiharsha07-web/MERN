@@ -302,7 +302,7 @@ let games = ["cricket", "football", "hockey", "badminton", "tennis"];
 
 games.push("volleyball");
 
-document.write(games+ "<br>");
+document.write(games + "<br>");
 
 
 
@@ -333,7 +333,7 @@ let a2 = ["d", "e", "f"];
 
 let a3 = a1.concat(a2);
 var a4 = a3.join("$");
-  
+
 document.write(a3 + "<br>");
 document.write(a4 + "<br>");
 
@@ -355,18 +355,18 @@ document.write(cricet_team + "<br>");
 
 //removeing elements from array using splice method
 let volleyball_team = ["india", "italy", "brazil", "usa", "france"];
-volleyball_team.splice(0,3)
+volleyball_team.splice(0, 3)
 document.write(volleyball_team + "<br>");
 
 //adding elements to array using splice method
-volleyball_team.splice(0,0,"japan","germany","australia");
+volleyball_team.splice(0, 0, "japan", "germany", "australia");
 document.write(volleyball_team + "<br>");
 
 //adding without removing elements using splice method
-volleyball_team.splice(2,0,"china","canada");
+volleyball_team.splice(2, 0, "china", "canada");
 document.write(volleyball_team + "<br>");
 
-volleyball_team.splice(2,5,"ukraine","vatican city");
+volleyball_team.splice(2, 5, "ukraine", "vatican city");
 document.write(volleyball_team + "<br>");
 
 //index of method
@@ -375,7 +375,7 @@ let students = ["harsha", "uday", "sai", "vishnu", "sumanth"];
 
 if (students.indexOf("vishnu") !== -1) {
     document.write("vishnu is present in the array<br>");
-}   
+}
 let index = students.indexOf("vishnu");
 document.write(index + "<br>");
 
@@ -384,8 +384,8 @@ document.write(index + "<br>");
 let scores = [1, 2, 3, 4, 5];
 let students1 = ["harsha", "uday", "sai", "vishnu", "sumanth"];
 
-students1.forEach(function (items , index) {
-    document.write(  index + 1 + "-" + items +  "<br>");
+students1.forEach(function (items, index) {
+    document.write(index + 1 + "-" + items + "<br>");
 });
 
 scores.forEach(function (score) {
@@ -404,15 +404,38 @@ let marks1 = [
         ["harsha", "uday", "sai", "vishnu", "sumanth"],
         ["english", "telugu", "hindi", "maths", "science"],
     ]
-    [90, 80, 70 , 60 , 50],
+    [90, 80, 70, 60, 50],
     [85, 75, 65, 55],
     [95, 85, 75, 65],
     [33, 44, 55, 66]
 ];
 
-document.write(marks1[0][4] [4] + "<br>");
 
+//String methods
+//string split
 
+var string = "i love srikakualam ";
+document.write(string.split("") + "<br>");
 
+console.log(string.split(""));
+//trim
 
+var std1 = "           Harsha     ";
+document.write(std1.trim() + "<br>");
+console.log(std1 + "<br>");
+console.log(std1.trim());
 
+//charAT
+
+var str = "Hello World";
+document.write(str.charAt(0) + "<br>");
+document.write(str.charAt(6) + "<br>");
+document.write(str.charAt(-1) + "<br>");
+
+//loops
+
+var k = 10;
+for (i = 1; i <= k; i++) {
+
+}
+document.write(i + "<br>"); 
