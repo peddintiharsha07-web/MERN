@@ -433,9 +433,54 @@ document.write(str.charAt(6) + "<br>");
 document.write(str.charAt(-1) + "<br>");
 
 //loops
-
-var k = 10;
-for (i = 1; i <= k; i++) {
-
+//for loop
+for(var a = 1; a <= 5; a++){
+    document.write(a + ". " + " i love my country" + "<br>");
 }
-document.write(i + "<br>"); 
+
+document.write("\n-------------------------------<br>");    
+
+for(var a = 7; a >= 0; a--){
+    document.write(a + ". " + " i love my country" + "<br>");
+}
+
+//while loop
+
+let g = 0;
+while(g <= 5){
+    document.write("Hellow everyone" + "<br>");
+    g++;
+}
+
+//do while loop
+let u = 0;
+do{
+    document.write("welcome to srikakulam" + "<br>");
+    u++;    
+}
+while(u < 5);
+
+
+//loop Practice
+var amount = 1000;
+var days = 30;
+var interest = 2;
+
+for(let i = 1; i <= days; i++){
+    if(i % 4 === 0){
+        amount += interest;
+    }
+    document.write("your amount for day " + i + " is " + amount + "<br>");
+}
+
+
+var a = [1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10];
+var b = [];
+
+for(let i = 0; i < a.length; i++){
+    if(!b.includes(a[i])){
+        b.push(a[i]);
+    }
+}
+
+document.write("Unique numbers: " + b + "<br>");
