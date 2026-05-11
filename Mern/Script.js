@@ -393,6 +393,26 @@ scores.forEach(function (score) {
 });
 
 
+//single dimensional array
+let std = ["Harsha", "Uday", "Sai", "Vishnu", "Sumanth"];
+document.write("my name is " + std[1] + "<br>");
+document.write("my name is " + std[3] + "<br>");
+
+//multi dimensional array
+let marks1 = [
+    [
+        ["harsha", "uday", "sai", "vishnu", "sumanth"],
+        ["english", "telugu", "hindi", "maths", "science"],
+    ]
+    [90, 80, 70 , 60 , 50],
+    [85, 75, 65, 55],
+    [95, 85, 75, 65],
+    [33, 44, 55, 66]
+];
+
+document.write(marks1[0][4] [4] + "<br>");
+
+
 
 
 
