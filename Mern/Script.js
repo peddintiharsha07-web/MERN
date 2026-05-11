@@ -295,6 +295,7 @@ function welcome(username) {
 
 welcome(username);
 
+<<<<<<< HEAD
 
 //methods in array
 
@@ -338,4 +339,28 @@ games.splice(1, 2);
 document.write(games + "<br>");
 
 document.write(games.length + "<br>");
+=======
+//array methods
+
+let collection =["shiva",30, True,{name:uday}]
+
+//push
+
+let arr = [1, 2, 3, 4, 5,];
+arr.push(6);
+
+//pop
+
+arr.pop();
+
+//unshift
+
+arr.unshift(-1)
+
+//shift()
+arr.shift();
+
+//push
+arr.lenght()
+>>>>>>> 47bb968374f662ea4f47bae152290dbdb0cb5706
 
