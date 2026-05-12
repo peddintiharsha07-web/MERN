@@ -487,4 +487,24 @@ document.write("Unique numbers: " + b + "<br>");
 
 // Dom manipulation
 //getElementById
-document.getElementById("demo").innerHTML = "welcome to srikakulam";    
+
+var logo = document.getElementById("logo");
+
+logo.style.backgroundColor = "blue";
+logo.style.color = "white";
+logo.style.padding = "10px 20px";
+logo.style.borderRadius = "10px";
+logo.style.cursor = "pointer";
+logo.onmouseenter = function(){
+    logo.style.backgroundColor = "tomato";
+    logo.style.fontSize = "25px";
+}
+logo.onmouseleave = function(){
+    logo.style.backgroundColor = "blue";
+    logo.style.fontSize = "20px";
+    logo.style.boxShadow = "0 4px 8px rgba(0, 0, 0, 0.2)";  
+}   
+logo.addEventListener("click", function(){
+    alert("you clicked the button");
+});     
+
