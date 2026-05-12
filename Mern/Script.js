@@ -487,14 +487,10 @@ document.write("Unique numbers: " + b + "<br>");
 
 // Dom manipulation
 //getElementById
-
+//inner html
 var logo = document.getElementById("logo");
 
-logo.style.backgroundColor = "blue";
-logo.style.color = "white";
-logo.style.padding = "10px 20px";
-logo.style.borderRadius = "10px";
-logo.style.cursor = "pointer";
+logo.innerText = "Press Me"; //inner text and inner html are same but inner html can also add html tags but inner text only add text
 logo.onmouseenter = function(){
     logo.style.backgroundColor = "tomato";
     logo.style.fontSize = "25px";
@@ -508,3 +504,14 @@ logo.addEventListener("click", function(){
     alert("you clicked the button");
 });     
 
+//inner html
+logo.innerHTML = "New Title"; //inner text and inner html are same but inner html can also add html tags but inner text only add text
+
+console.log(logo.innerHTML);
+
+
+//text content
+logo.textContent = "New sale title"; //text content and inner text are same but text content can also add html tags but inner text only add text
+console.log(logo.textContent);
+
+//getElementByClassName
