@@ -605,22 +605,66 @@
 //     b[i].textContent = "welcome to my website and hellow world";
 // }
 
-//target hidden element
-const targetHide = document.querySelector("p")
-//console.log(targetHide.innerText);
+// target hidden element
+// const targetHide = document.querySelector("p")
+// //console.log(targetHide.innerText);
 
-console.log(targetHide.textContent);
+// console.log(targetHide.textContent);
 
 
-//attributs
-const t = document.querySelector("header").attributes.class.value;
-console.log(t);
+// //attributs
+// const t = document.querySelector("header").attributes.class.value;
+// console.log(t);
 
-const h = document.querySelector("header").getAttribute("href");
-console.log(h);
-const s = document.querySelector("header").setAttribute("href", "https://www.google.com");
-const h1 = document.querySelector("header").getAttribute("href");
-console.log(h1);
+// const h = document.querySelector("header").getAttribute("href");
+// console.log(h);
+// const s = document.querySelector("header").setAttribute("href", "https://www.google.com");
+// const h1 = document.querySelector("header").getAttribute("href");
+// console.log(h1);
 
-const r = document.querySelector("header").attributes.id.value;
-console.log(r);
+// const r = document.querySelector("header").attributes.id.value;
+// console.log(r);
+
+
+//set attribute and css style
+const tar =document.querySelector("ul");
+tar.setAttribute("style", "border:5px solid red")
+
+const tar1 = document.querySelector("button");
+tar1.style.backgroundColor = "tomato";
+tar1.style.padding = "10px 20px";
+tar1.style.border = "none";
+tar1.style.borderRadius = "5px";
+
+
+tar1.addEventListener("mouseenter", function(){
+    tar1.style.backgroundColor = "lightgray";
+});
+
+tar1.addEventListener("mouseleave", function(){
+    tar1.style.backgroundColor = "tomato";
+});
+
+
+//removing attribute
+
+const tarremove = document.querySelector("ul");
+tarremove.removeAttribute("style");
+
+//events
+
+const b = document.querySelector("#changeColor");
+
+b.addEventListener("click", function(){
+    const header = document.querySelector("#headerId");
+    header.style.color = "black";
+    header.style.fontSize = "40px";
+    header.style.textAlign = "center";
+});
+b.addEventListener("dblclick", function(){
+    const header = document.querySelector("#headerId");
+    header.style.color = "transparent";
+    header.style.fontSize = "40px";
+    header.style.textAlign = "center";
+});
+
