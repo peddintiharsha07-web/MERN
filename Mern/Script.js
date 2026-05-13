@@ -488,30 +488,89 @@ document.write("Unique numbers: " + b + "<br>");
 // Dom manipulation
 //getElementById
 //inner html
-var logo = document.getElementById("logo");
+var t = document.getElementById("title");
+t.innerHTML = "Welcome to MERN Stack";
 
-logo.innerText = "Press Me"; //inner text and inner html are same but inner html can also add html tags but inner text only add text
+//style
+t.style.color = "blue";
+t.style.fontSize = "40px";
+t.style.textAlign = "center";
+
+var logo = document.getElementById("logo");
+logo.style.backgroundColor = "orange";
+logo.style.color = "white";
+logo.style.padding = "10px 20px";
+logo.style.border = "none";
+logo.style.borderRadius = "5px";
+logo.style.cursor = "pointer";
+
 logo.onmouseenter = function(){
-    logo.style.backgroundColor = "tomato";
-    logo.style.fontSize = "25px";
+    logo.style.backgroundColor = "darkorange";
+}
+logo.onmouseenter = function(){
+    logo.style.padding = "15px 25px";
+    logo.style.backgroundColor = "orange";
+}   
+ logo.onmouseleave = function(){
+    logo.style.backgroundColor = "orange";
 }
 logo.onmouseleave = function(){
-    logo.style.backgroundColor = "blue";
-    logo.style.fontSize = "20px";
-    logo.style.boxShadow = "0 4px 8px rgba(0, 0, 0, 0.2)";  
+    logo.style.padding = "10px 20px";
+    logo.style.backgroundColor = "orange";
 }   
+
 logo.addEventListener("click", function(){
-    alert("you clicked the button");
-});     
+    alert("You clicked the MERN button!");
+});
 
-//inner html
-logo.innerHTML = "New Title"; //inner text and inner html are same but inner html can also add html tags but inner text only add text
+var nav = document.getElementsByClassName("Home")
+nav[0].textContent = "Home page";
 
-console.log(logo.innerHTML);
+nav[0].addEventListener("mouseenter", function(){
+    nav[0].style.color = "red";
+});
+nav[0].addEventListener("mouseleave", function(){
+    nav[0].style.color = "black";
+});
+
+var B = document.getElementsByClassName("Blog");
+B[0].textContent = "Blog page";
+
+B[0].addEventListener("mouseenter", function(){
+    B[0].style.color = "red";
+});
+
+B[0].addEventListener("mouseleave", function(){
+    B[0].style.color = "black";
+});
+
+var a = document.getElementsByClassName("About");
+a[0].textContent = "About page";
+a[0].addEventListener("mouseenter", function(){
+    a[0].style.color = "red";
+});
+a[0].addEventListener("mouseleave", function(){
+    a[0].style.color = "black";
+});
+
+var c = document.getElementsByClassName("Contact");
+c[0].textContent = "Contact page";
+
+c[0].addEventListener("mouseenter", function(){
+    c[0].style.color = "red";
+});
+c[0].addEventListener("mouseleave", function(){
+    c[0].style.color = "black";
+});
 
 
-//text content
-logo.textContent = "New sale title"; //text content and inner text are same but text content can also add html tags but inner text only add text
-console.log(logo.textContent);
+var s = document.getElementsByClassName("Services");
+s[0].textContent = "Services page";
 
-//getElementByClassName
+s[0].addEventListener("mouseenter", function(){
+    s[0].style.color = "red";
+});
+s[0].addEventListener("mouseleave", function(){
+    s[0].style.color = "black";
+});
+    
