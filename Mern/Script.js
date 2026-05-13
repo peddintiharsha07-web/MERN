@@ -590,17 +590,37 @@
 //     });
 // }
 
-//query selector
+// //query selector
 
-const a = document.querySelector("h1");
+// const a = document.querySelector("h1");
 
-a.textContent = "my name is Harsha";
+// a.textContent = "my name is Harsha";
 
 
-//chaging all the elements with class name "Services"
+// //chaging all the elements with class name "Services"
 
-const b = document.querySelectorAll(".Services");
+// const b = document.querySelectorAll(".Services");
 
-for(let i = 0; i < b.length; i++){
-    b[i].textContent = "welcome to my website and hellow world";
-}
+// for(let i = 0; i < b.length; i++){
+//     b[i].textContent = "welcome to my website and hellow world";
+// }
+
+//target hidden element
+const targetHide = document.querySelector("p")
+//console.log(targetHide.innerText);
+
+console.log(targetHide.textContent);
+
+
+//attributs
+const t = document.querySelector("header").attributes.class.value;
+console.log(t);
+
+const h = document.querySelector("header").getAttribute("href");
+console.log(h);
+const s = document.querySelector("header").setAttribute("href", "https://www.google.com");
+const h1 = document.querySelector("header").getAttribute("href");
+console.log(h1);
+
+const r = document.querySelector("header").attributes.id.value;
+console.log(r);
