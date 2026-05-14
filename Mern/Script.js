@@ -670,3 +670,19 @@ b.addEventListener("dblclick", function(){
 
 
 //Add and remove event listener
+const btn = document.getElementById("btn");
+    const removeBtn = document.getElementById("removeBtn");
+
+    // function create
+    function showMessage() {
+      alert("Button Clicked!");
+    }
+
+    // add event listener
+    btn.addEventListener("click", showMessage);
+
+    // remove event listener
+    removeBtn.addEventListener("click", function () {
+      btn.removeEventListener("click", showMessage);
+      alert("Event Removed");
+    });
