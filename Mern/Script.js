@@ -712,3 +712,12 @@ const age = document.getElementById("age");
 age.addEventListener("change", function() {
   alert(age.value);
 });
+
+
+//Focus point
+const email = document.getElementById("email");
+
+email.addEventListener("focus", function() {
+  console.log("Input Focused");
+});
+
