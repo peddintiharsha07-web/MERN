@@ -668,6 +668,5 @@ b.addEventListener("dblclick", function(){
     header.style.textAlign = "center";
 });
 
-//Harsha
 
-
+//Add and remove event listener
