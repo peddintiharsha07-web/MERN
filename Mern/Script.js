@@ -671,7 +671,7 @@ b.addEventListener("dblclick", function(){
 
 //Add and remove event listener
 const btn = document.getElementById("btn");
-    const removeBtn = document.getElementById("removeBtn");
+const removeBtn = document.getElementById("removeBtn");
 
     // function create
     function showMessage() {
@@ -686,3 +686,21 @@ const btn = document.getElementById("btn");
       btn.removeEventListener("click", showMessage);
       alert("Event Removed");
     });
+
+//From events
+//submit event
+const form = document.getElementById("myForm");
+
+form.addEventListener("submit", function(event) {
+  event.preventDefault();
+
+  alert("Form Submitted");
+});
+
+
+//input event
+const input = document.getElementById("name");
+
+input.addEventListener("input", function() {
+  console.log(input.value);
+});
