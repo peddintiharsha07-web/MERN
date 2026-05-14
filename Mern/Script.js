@@ -704,3 +704,11 @@ const input = document.getElementById("name");
 input.addEventListener("input", function() {
   console.log(input.value);
 });
+
+//change events
+
+const age = document.getElementById("age");
+
+age.addEventListener("change", function() {
+  alert(age.value);
+});
