@@ -727,3 +727,12 @@ const form = document.getElementById("form");
 form.addEventListener("reset", function() {
   alert("Form Reset");
 });
+
+//blur event
+
+const phone = document.getElementById("phone");
+
+phone.addEventListener("blur", function() {
+  console.log("Focus Removed");
+});
+
