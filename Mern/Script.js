@@ -759,3 +759,8 @@ phone.addEventListener("blur", function() {
       .addEventListener("click", function () {
         title.classList.toggle("active");
       });
+
+
+      const date = new Date();
+
+      console.log(date);
