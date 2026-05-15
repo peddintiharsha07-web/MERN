@@ -747,4 +747,9 @@ phone.addEventListener("blur", function() {
         title.classList.add("active");
       });
 
+          // Remove class
+    document.getElementById("removeBtn")
+      .addEventListener("click", function () {
+        title.classList.remove("active");
+      });
 
