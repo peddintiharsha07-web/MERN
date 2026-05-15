@@ -753,3 +753,9 @@ phone.addEventListener("blur", function() {
         title.classList.remove("active");
       });
 
+
+          // Toggle class
+    document.getElementById("toggleBtn")
+      .addEventListener("click", function () {
+        title.classList.toggle("active");
+      });
