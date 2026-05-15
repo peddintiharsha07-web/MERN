@@ -736,3 +736,15 @@ phone.addEventListener("blur", function() {
   console.log("Focus Removed");
 });
 
+
+//class list 
+
+ const title = document.getElementById("title");
+
+    // Add class
+    document.getElementById("addBtn")
+      .addEventListener("click", function () {
+        title.classList.add("active");
+      });
+
+
