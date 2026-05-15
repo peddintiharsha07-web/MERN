@@ -721,3 +721,9 @@ email.addEventListener("focus", function() {
   console.log("Input Focused");
 });
 
+//reset event
+const form = document.getElementById("form");
+
+form.addEventListener("reset", function() {
+  alert("Form Reset");
+});
