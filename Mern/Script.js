@@ -764,3 +764,10 @@ phone.addEventListener("blur", function() {
       const date = new Date();
 
       console.log(date);
+
+
+//data methods 
+
+let d = new Date();
+
+console.log(d);
