@@ -806,5 +806,8 @@ console.log(d.getDay());
 
 console.log(d.getHours());
 
+//get minute
+console.log(d.getMinutes());
+
 
 
