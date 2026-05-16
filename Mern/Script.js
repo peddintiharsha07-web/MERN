@@ -786,3 +786,8 @@ let d = new Date();
 console.log(d.getMonth());
 
 
+//get month
+let d = new Date();
+
+console.log(d.getMonth());
+
