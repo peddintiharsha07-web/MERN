@@ -1,4 +1,4 @@
-// var chintu = "chintu";
+2// var chintu = "chintu";
 
 // console.log(`Hello my name is ${chintu}`);
 
@@ -800,5 +800,11 @@ console.log(d.getDate());
 //day
 
 console.log(d.getDay());
+
+
+//get hour
+
+console.log(d.getHours());
+
 
 
