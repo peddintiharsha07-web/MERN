@@ -779,3 +779,10 @@ let d = new Date("2026-05-16");
 console.log(d);
 
 
+//get full year
+
+let d = new Date();
+
+console.log(d.getMonth());
+
+
