@@ -809,5 +809,9 @@ console.log(d.getHours());
 //get minute
 console.log(d.getMinutes());
 
+//get second
+
+console.log(d.getSeconds());
+
 
 
