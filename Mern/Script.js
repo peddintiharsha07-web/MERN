@@ -14,6 +14,7 @@
 // const gender = "male"
 // console.log(gender);
 
+
 // college = "GMRIT";
 // console.log(college);
 
@@ -790,4 +791,14 @@ console.log(d.getMonth());
 let d = new Date();
 
 console.log(d.getMonth());
+
+
+//get date
+
+console.log(d.getDate());
+
+//day
+
+console.log(d.getDay());
+
 
