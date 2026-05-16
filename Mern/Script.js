@@ -771,3 +771,11 @@ phone.addEventListener("blur", function() {
 let d = new Date();
 
 console.log(d);
+
+
+//specific data type
+
+let d = new Date("2026-05-16");
+console.log(d);
+
+
