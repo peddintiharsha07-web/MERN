@@ -825,4 +825,8 @@ console.log(d);
 //set month
 d.setMonth(10);
 
+//set month
+
+d.setDate(25);
+
 
