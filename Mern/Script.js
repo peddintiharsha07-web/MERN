@@ -822,4 +822,7 @@ d.setFullYear(2030);
 
 console.log(d);
 
+//set month
+d.setMonth(10);
+
 
