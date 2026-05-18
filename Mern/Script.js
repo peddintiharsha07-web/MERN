@@ -1,4 +1,4 @@
-1A2// var chintu = "chintu";
+w1A2// var chintu = "chintu";
 
 // console.log(`Hello my name is ${chintu}`);
 
@@ -837,6 +837,9 @@ console.log(d.toDateString());
 
 console.log(d.toLocaleDateString());
 
+//time strings
+
+console.log(d.toTimeString());
 
 
 
