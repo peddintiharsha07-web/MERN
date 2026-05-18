@@ -830,7 +830,15 @@ d.setMonth(10);
 d.setDate(25);
 
 
-//data steings
+//data strings
 console.log(d.toDateString());
+
+//local data strings
+
+console.log(d.toLocaleDateString());
+
+
+
+
 
 
