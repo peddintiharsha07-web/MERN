@@ -1,4 +1,4 @@
-2// var chintu = "chintu";
+A2// var chintu = "chintu";
 
 // console.log(`Hello my name is ${chintu}`);
 
@@ -813,5 +813,13 @@ console.log(d.getMinutes());
 
 console.log(d.getSeconds());
 
+
+//set methods
+
+let d = new Date();
+
+d.setFullYear(2030);
+
+console.log(d);
 
 
