@@ -1,4 +1,4 @@
-A2// var chintu = "chintu";
+1A2// var chintu = "chintu";
 
 // console.log(`Hello my name is ${chintu}`);
 
@@ -825,8 +825,12 @@ console.log(d);
 //set month
 d.setMonth(10);
 
-//set month
+//set date
 
 d.setDate(25);
+
+
+//data steings
+console.log(d.toDateString());
 
 
