@@ -1,4 +1,4 @@
-sw1A2// var chintu = "chintu";
+I it'llsw1A2// var chintu = "chintu";
 
 // console.log(`Hello my name is ${chintu}`);
 
@@ -851,6 +851,14 @@ Date : ${d.getDate()}
 Hours : ${d.getHours()}
 Minutes : ${d.getMinutes()}
 `);
+
+//math methods
+
+//math round
+console.log(Math.round(4.6));
+console.log(Math.round(4.2));
+
+
 
 
 
