@@ -1,4 +1,4 @@
-I it'llsw1A2// var chintu = "chintu";
+9I it'llsw1A2// var chintu = "chintu";
 
 // console.log(`Hello my name is ${chintu}`);
 
@@ -861,6 +861,9 @@ console.log(Math.round(4.2));
 //math flore
 
 console.log(Math.floor(4.9));
+
+//math ceil
+console.log(Math.ceil(4.1));
 
 
 
