@@ -858,6 +858,10 @@ Minutes : ${d.getMinutes()}
 console.log(Math.round(4.6));
 console.log(Math.round(4.2));
 
+//math flore
+
+console.log(Math.floor(4.9));
+
 
 
 
