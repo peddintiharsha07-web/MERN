@@ -874,6 +874,9 @@ console.log(Math.sqrt(25));
 //math power
 console.log(Math.pow(2, 3));
 
+//math max
+console.log(Math.max(10, 50, 30));
+
 
 
 
