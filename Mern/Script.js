@@ -877,6 +877,9 @@ console.log(Math.pow(2, 3));
 //math max
 console.log(Math.max(10, 50, 30));
 
+//math min
+console.log(Math.min(10, 50, 30));
+
 
 
 
