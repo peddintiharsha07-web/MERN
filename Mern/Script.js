@@ -868,6 +868,8 @@ console.log(Math.ceil(4.1));
 //math abs
 console.log(Math.abs(-15));
 
+//math sqrt
+console.log(Math.sqrt(25));
 
 
 
