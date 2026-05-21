@@ -871,6 +871,9 @@ console.log(Math.abs(-15));
 //math sqrt
 console.log(Math.sqrt(25));
 
+//math power
+console.log(Math.pow(2, 3));
+
 
 
 
