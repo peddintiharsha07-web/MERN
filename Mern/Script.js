@@ -865,6 +865,9 @@ console.log(Math.floor(4.9));
 //math ceil
 console.log(Math.ceil(4.1));
 
+//math abs
+console.log(Math.abs(-15));
+
 
 
 
