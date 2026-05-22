@@ -895,4 +895,5 @@ person.city = "New York";
 person.age = 26;           
 
 
-
+//Deleting Properties
+delete person.city;
