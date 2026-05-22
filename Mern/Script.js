@@ -885,6 +885,9 @@ console.log(Math.min(10, 50, 30));
 //dot notation
 console.log(person.name);
 
+//backet notation
+console.log(person["age"]);
+
 
 
 
