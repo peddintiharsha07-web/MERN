@@ -881,6 +881,11 @@ console.log(Math.max(10, 50, 30));
 console.log(Math.min(10, 50, 30));
 
 
+//objects
+//dot notation
+console.log(person.name);
+
+
 
 
 
