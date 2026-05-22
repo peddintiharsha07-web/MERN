@@ -889,7 +889,10 @@ console.log(person.name);
 console.log(person["age"]);
 
 
-
+//adding new properties
+//updating properties
+person.city = "New York"; 
+person.age = 26;           
 
 
 
