@@ -897,3 +897,14 @@ person.age = 26;
 
 //Deleting Properties
 delete person.city;
+
+//object with functions(methods)
+let car = {
+  brand: "Toyota",
+  start: function() {
+    console.log("Car started");
+  }
+};
+
+car.start();
+
