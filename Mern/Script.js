@@ -919,3 +919,7 @@ let user = {
 
 console.log(user.address.city);
 
+//Looping Through Objects
+for (let key in person) {
+  console.log(key + ": " + person[key]);
+}
