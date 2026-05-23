@@ -923,3 +923,10 @@ console.log(user.address.city);
 for (let key in person) {
   console.log(key + ": " + person[key]);
 }
+
+
+//Built-in Object Methods
+
+Object.keys(person);   // returns array of keys
+Object.values(person); // returns array of values
+Object.entries(person);// key-value pairs
