@@ -908,3 +908,14 @@ let car = {
 
 car.start();
 
+//Nested objects
+let user = {
+  name: "Alice",
+  address: {
+    city: "London",
+    zip: 12345
+  }
+};
+
+console.log(user.address.city);
+
