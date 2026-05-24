@@ -963,3 +963,13 @@ setInterval(() => {
 let id = setInterval(() => {
   console.log("Running...");
 }, 2000);
+
+//clear interval
+clearInterval(intervalID)
+
+//example2
+let id = setInterval(() => {
+  console.log("Hello");
+}, 1000);
+
+clearInterval(id);
