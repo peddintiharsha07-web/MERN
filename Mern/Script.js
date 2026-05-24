@@ -958,3 +958,8 @@ setInterval(function, timeInMilliseconds)
 setInterval(() => {
   console.log("Hello");
 }, 1000);
+//Storing Interval ID
+
+let id = setInterval(() => {
+  console.log("Running...");
+}, 2000);
