@@ -949,3 +949,12 @@ class Person {
 }
 
 let p1 = new Person("John");
+
+//setInterval()
+
+setInterval(function, timeInMilliseconds)
+
+//example
+setInterval(() => {
+  console.log("Hello");
+}, 1000);
